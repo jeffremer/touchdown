@@ -7,7 +7,7 @@
 //
 
 #import "TouchdownTests.h"
-
+#import "Touchdown.h"
 
 @implementation TouchdownTests
 
@@ -25,9 +25,10 @@
     [super tearDown];
 }
 
-- (void)testExample
-{
-    STFail(@"Unit tests are not implemented yet in TouchdownTests");
+- (void)testMarkdownToHtml
+{    
+    NSString *html = [Touchdown htmlFromMarkdown: @"# Foo\n_bar_\n"];
+    STAssertEqualObjects(html, @"<h1>Foo</h1>\n\n<p><em>bar</em>\n", @"# Foo -> <h1>Foo");
 }
 
 @end

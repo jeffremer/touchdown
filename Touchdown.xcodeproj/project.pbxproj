@@ -15,6 +15,18 @@
 		1FA27F8413D27ED100205D5F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FA27F8213D27ED100205D5F /* InfoPlist.strings */; };
 		1FA27F8713D27ED100205D5F /* TouchdownTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 1FA27F8613D27ED100205D5F /* TouchdownTests.h */; };
 		1FA27F8913D27ED100205D5F /* TouchdownTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA27F8813D27ED100205D5F /* TouchdownTests.m */; };
+		1FA27F9A13D2809300205D5F /* array.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FA27F9213D2809300205D5F /* array.c */; };
+		1FA27F9B13D2809300205D5F /* array.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FA27F9313D2809300205D5F /* array.h */; };
+		1FA27F9C13D2809300205D5F /* autolink.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FA27F9413D2809300205D5F /* autolink.c */; };
+		1FA27F9D13D2809300205D5F /* autolink.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FA27F9513D2809300205D5F /* autolink.h */; };
+		1FA27F9E13D2809300205D5F /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FA27F9613D2809300205D5F /* buffer.c */; };
+		1FA27F9F13D2809300205D5F /* buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FA27F9713D2809300205D5F /* buffer.h */; };
+		1FA27FA013D2809300205D5F /* markdown.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FA27F9813D2809300205D5F /* markdown.c */; };
+		1FA27FA113D2809300205D5F /* markdown.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FA27F9913D2809300205D5F /* markdown.h */; };
+		1FA27FA413D280A700205D5F /* Touchdown.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FA27FA213D280A700205D5F /* Touchdown.h */; };
+		1FA27FA513D280A700205D5F /* Touchdown.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA27FA313D280A700205D5F /* Touchdown.m */; };
+		1FA27FA813D286FD00205D5F /* html.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FA27FA613D286FD00205D5F /* html.c */; };
+		1FA27FA913D286FD00205D5F /* html.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FA27FA713D286FD00205D5F /* html.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +51,18 @@
 		1FA27F8513D27ED100205D5F /* TouchdownTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TouchdownTests-Prefix.pch"; sourceTree = "<group>"; };
 		1FA27F8613D27ED100205D5F /* TouchdownTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchdownTests.h; sourceTree = "<group>"; };
 		1FA27F8813D27ED100205D5F /* TouchdownTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchdownTests.m; sourceTree = "<group>"; };
+		1FA27F9213D2809300205D5F /* array.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = array.c; sourceTree = "<group>"; };
+		1FA27F9313D2809300205D5F /* array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = array.h; sourceTree = "<group>"; };
+		1FA27F9413D2809300205D5F /* autolink.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = autolink.c; sourceTree = "<group>"; };
+		1FA27F9513D2809300205D5F /* autolink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = autolink.h; sourceTree = "<group>"; };
+		1FA27F9613D2809300205D5F /* buffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = buffer.c; sourceTree = "<group>"; };
+		1FA27F9713D2809300205D5F /* buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = buffer.h; sourceTree = "<group>"; };
+		1FA27F9813D2809300205D5F /* markdown.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = markdown.c; sourceTree = "<group>"; };
+		1FA27F9913D2809300205D5F /* markdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = markdown.h; sourceTree = "<group>"; };
+		1FA27FA213D280A700205D5F /* Touchdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Touchdown.h; sourceTree = "<group>"; };
+		1FA27FA313D280A700205D5F /* Touchdown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Touchdown.m; sourceTree = "<group>"; };
+		1FA27FA613D286FD00205D5F /* html.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = html.c; sourceTree = "<group>"; };
+		1FA27FA713D286FD00205D5F /* html.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = html.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +120,19 @@
 		1FA27F6E13D27ED100205D5F /* Touchdown */ = {
 			isa = PBXGroup;
 			children = (
+				1FA27F9213D2809300205D5F /* array.c */,
+				1FA27F9313D2809300205D5F /* array.h */,
+				1FA27FA613D286FD00205D5F /* html.c */,
+				1FA27FA713D286FD00205D5F /* html.h */,
+				1FA27F9413D2809300205D5F /* autolink.c */,
+				1FA27F9513D2809300205D5F /* autolink.h */,
+				1FA27F9613D2809300205D5F /* buffer.c */,
+				1FA27F9713D2809300205D5F /* buffer.h */,
+				1FA27F9813D2809300205D5F /* markdown.c */,
+				1FA27F9913D2809300205D5F /* markdown.h */,
 				1FA27F6F13D27ED100205D5F /* Supporting Files */,
+				1FA27FA213D280A700205D5F /* Touchdown.h */,
+				1FA27FA313D280A700205D5F /* Touchdown.m */,
 			);
 			path = Touchdown;
 			sourceTree = "<group>";
@@ -136,6 +172,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FA27F9B13D2809300205D5F /* array.h in Headers */,
+				1FA27F9D13D2809300205D5F /* autolink.h in Headers */,
+				1FA27F9F13D2809300205D5F /* buffer.h in Headers */,
+				1FA27FA113D2809300205D5F /* markdown.h in Headers */,
+				1FA27FA413D280A700205D5F /* Touchdown.h in Headers */,
+				1FA27FA913D286FD00205D5F /* html.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +279,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FA27F9A13D2809300205D5F /* array.c in Sources */,
+				1FA27F9C13D2809300205D5F /* autolink.c in Sources */,
+				1FA27F9E13D2809300205D5F /* buffer.c in Sources */,
+				1FA27FA013D2809300205D5F /* markdown.c in Sources */,
+				1FA27FA513D280A700205D5F /* Touchdown.m in Sources */,
+				1FA27FA813D286FD00205D5F /* html.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
