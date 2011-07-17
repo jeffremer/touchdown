@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FA27F6D13D27ED100205D5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA27F6C13D27ED100205D5F /* Foundation.framework */; };
+		1FA27F7813D27ED100205D5F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA27F7713D27ED100205D5F /* UIKit.framework */; };
+		1FA27F7913D27ED100205D5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA27F6C13D27ED100205D5F /* Foundation.framework */; };
+		1FA27F7B13D27ED100205D5F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA27F7A13D27ED100205D5F /* CoreGraphics.framework */; };
+		1FA27F7E13D27ED100205D5F /* libTouchdown.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA27F6913D27ED100205D5F /* libTouchdown.a */; };
+		1FA27F8413D27ED100205D5F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FA27F8213D27ED100205D5F /* InfoPlist.strings */; };
+		1FA27F8713D27ED100205D5F /* TouchdownTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 1FA27F8613D27ED100205D5F /* TouchdownTests.h */; };
+		1FA27F8913D27ED100205D5F /* TouchdownTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA27F8813D27ED100205D5F /* TouchdownTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FA27F7C13D27ED100205D5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FA27F6013D27ED100205D5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FA27F6813D27ED100205D5F;
+			remoteInfo = Touchdown;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FA27F6913D27ED100205D5F /* libTouchdown.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTouchdown.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FA27F6C13D27ED100205D5F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1FA27F7013D27ED100205D5F /* Touchdown-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Touchdown-Prefix.pch"; sourceTree = "<group>"; };
+		1FA27F7613D27ED100205D5F /* TouchdownTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchdownTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FA27F7713D27ED100205D5F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1FA27F7A13D27ED100205D5F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1FA27F8113D27ED100205D5F /* TouchdownTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TouchdownTests-Info.plist"; sourceTree = "<group>"; };
+		1FA27F8313D27ED100205D5F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1FA27F8513D27ED100205D5F /* TouchdownTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TouchdownTests-Prefix.pch"; sourceTree = "<group>"; };
+		1FA27F8613D27ED100205D5F /* TouchdownTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchdownTests.h; sourceTree = "<group>"; };
+		1FA27F8813D27ED100205D5F /* TouchdownTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchdownTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FA27F6613D27ED100205D5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FA27F6D13D27ED100205D5F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FA27F7213D27ED100205D5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FA27F7813D27ED100205D5F /* UIKit.framework in Frameworks */,
+				1FA27F7913D27ED100205D5F /* Foundation.framework in Frameworks */,
+				1FA27F7B13D27ED100205D5F /* CoreGraphics.framework in Frameworks */,
+				1FA27F7E13D27ED100205D5F /* libTouchdown.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FA27F5E13D27ED100205D5F = {
+			isa = PBXGroup;
+			children = (
+				1FA27F6E13D27ED100205D5F /* Touchdown */,
+				1FA27F7F13D27ED100205D5F /* TouchdownTests */,
+				1FA27F6B13D27ED100205D5F /* Frameworks */,
+				1FA27F6A13D27ED100205D5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FA27F6A13D27ED100205D5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FA27F6913D27ED100205D5F /* libTouchdown.a */,
+				1FA27F7613D27ED100205D5F /* TouchdownTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FA27F6B13D27ED100205D5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FA27F6C13D27ED100205D5F /* Foundation.framework */,
+				1FA27F7713D27ED100205D5F /* UIKit.framework */,
+				1FA27F7A13D27ED100205D5F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1FA27F6E13D27ED100205D5F /* Touchdown */ = {
+			isa = PBXGroup;
+			children = (
+				1FA27F6F13D27ED100205D5F /* Supporting Files */,
+			);
+			path = Touchdown;
+			sourceTree = "<group>";
+		};
+		1FA27F6F13D27ED100205D5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FA27F7013D27ED100205D5F /* Touchdown-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FA27F7F13D27ED100205D5F /* TouchdownTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FA27F8613D27ED100205D5F /* TouchdownTests.h */,
+				1FA27F8813D27ED100205D5F /* TouchdownTests.m */,
+				1FA27F8013D27ED100205D5F /* Supporting Files */,
+			);
+			path = TouchdownTests;
+			sourceTree = "<group>";
+		};
+		1FA27F8013D27ED100205D5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FA27F8113D27ED100205D5F /* TouchdownTests-Info.plist */,
+				1FA27F8213D27ED100205D5F /* InfoPlist.strings */,
+				1FA27F8513D27ED100205D5F /* TouchdownTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1FA27F6713D27ED100205D5F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1FA27F6813D27ED100205D5F /* Touchdown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FA27F8C13D27ED100205D5F /* Build configuration list for PBXNativeTarget "Touchdown" */;
+			buildPhases = (
+				1FA27F6513D27ED100205D5F /* Sources */,
+				1FA27F6613D27ED100205D5F /* Frameworks */,
+				1FA27F6713D27ED100205D5F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Touchdown;
+			productName = Touchdown;
+			productReference = 1FA27F6913D27ED100205D5F /* libTouchdown.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1FA27F7513D27ED100205D5F /* TouchdownTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FA27F8F13D27ED100205D5F /* Build configuration list for PBXNativeTarget "TouchdownTests" */;
+			buildPhases = (
+				1FA27F7113D27ED100205D5F /* Sources */,
+				1FA27F7213D27ED100205D5F /* Frameworks */,
+				1FA27F7313D27ED100205D5F /* Resources */,
+				1FA27F7413D27ED100205D5F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FA27F7D13D27ED100205D5F /* PBXTargetDependency */,
+			);
+			name = TouchdownTests;
+			productName = TouchdownTests;
+			productReference = 1FA27F7613D27ED100205D5F /* TouchdownTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FA27F6013D27ED100205D5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Widgetbox, Inc.";
+			};
+			buildConfigurationList = 1FA27F6313D27ED100205D5F /* Build configuration list for PBXProject "Touchdown" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1FA27F5E13D27ED100205D5F;
+			productRefGroup = 1FA27F6A13D27ED100205D5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FA27F6813D27ED100205D5F /* Touchdown */,
+				1FA27F7513D27ED100205D5F /* TouchdownTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FA27F7313D27ED100205D5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FA27F8413D27ED100205D5F /* InfoPlist.strings in Resources */,
+				1FA27F8713D27ED100205D5F /* TouchdownTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FA27F7413D27ED100205D5F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FA27F6513D27ED100205D5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FA27F7113D27ED100205D5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FA27F8913D27ED100205D5F /* TouchdownTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FA27F7D13D27ED100205D5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FA27F6813D27ED100205D5F /* Touchdown */;
+			targetProxy = 1FA27F7C13D27ED100205D5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1FA27F8213D27ED100205D5F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FA27F8313D27ED100205D5F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FA27F8A13D27ED100205D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1FA27F8B13D27ED100205D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		1FA27F8D13D27ED100205D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/Touchdown.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Touchdown/Touchdown-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1FA27F8E13D27ED100205D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/Touchdown.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Touchdown/Touchdown-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1FA27F9013D27ED100205D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchdownTests/TouchdownTests-Prefix.pch";
+				INFOPLIST_FILE = "TouchdownTests/TouchdownTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1FA27F9113D27ED100205D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchdownTests/TouchdownTests-Prefix.pch";
+				INFOPLIST_FILE = "TouchdownTests/TouchdownTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FA27F6313D27ED100205D5F /* Build configuration list for PBXProject "Touchdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FA27F8A13D27ED100205D5F /* Debug */,
+				1FA27F8B13D27ED100205D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FA27F8C13D27ED100205D5F /* Build configuration list for PBXNativeTarget "Touchdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FA27F8D13D27ED100205D5F /* Debug */,
+				1FA27F8E13D27ED100205D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FA27F8F13D27ED100205D5F /* Build configuration list for PBXNativeTarget "TouchdownTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FA27F9013D27ED100205D5F /* Debug */,
+				1FA27F9113D27ED100205D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FA27F6013D27ED100205D5F /* Project object */;
+}
